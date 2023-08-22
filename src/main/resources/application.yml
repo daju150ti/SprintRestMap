@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://root:iaIHfSZjp6BMiNQEPNTY@containers-us-west-129.railway.app:7541/railway
+    username: root
+    password: 7541
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
